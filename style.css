@@ -1,4 +1,4 @@
-.h1-container {
+h1 {
     color: black;
     font-family: 'Verdana', Geneva, Tahoma, sans-serif;
 }
@@ -13,26 +13,26 @@ h3 {
 }
 
 p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 li {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.button {
-    margin-bottom: 20px;
-    padding-right: 16px;
-    padding-left: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    background-color: blue;
-    border-radius: 8px;
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.recipes .recipe {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
 
-a {
-    color: white;
-    font-size: large;
-    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+.recipe-link {
+    margin-bottom: 30px;
 }
